@@ -5,16 +5,12 @@ from country import Country
 
 class LanguageInfoApp:
     """
-    A GUI application to display and search language information for countries.
+    Sets up gui.
     """
 
     def __init__(self, root: tk.Tk, countries: list[Country]):
         """
-        Initializes the LanguageInfoApp GUI.
-
-        Args:
-            root (tk.Tk): The root Tkinter window.
-            countries (list[Country]): A list of Country objects containing language data.
+        Initializes the LanguageInfoApp gui.
         """
         self.root = root
         self.root.title("Country Language Information")
@@ -33,12 +29,12 @@ class LanguageInfoApp:
         self.search_button = tk.Button(root, text="Search by Country", command=self.search_country)
         self.search_button.grid(row=6, column=2)
 
-        # Initial population of the country list
+        # Initial set of the country list
         self.refresh_country_list()
 
     def refresh_country_list(self):
         """
-        Refreshes the country list displayed in the listbox.
+        Refreshes the country list displayed in the list.
         """
         self.listbox.delete(0, tk.END)
         for country in self.countries:
@@ -82,10 +78,7 @@ class LanguageInfoApp:
 
 def run_app(countries: list[Country]):
     """
-    Runs the GUI application.
-
-    Args:
-        countries (list[Country]): A list of Country objects to be displayed in the application.
+    Runs the gui application.
     """
     root = tk.Tk()
     app = LanguageInfoApp(root, countries)

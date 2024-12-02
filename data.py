@@ -4,17 +4,7 @@ from country import Country
 
 def load_country_data(file_path: str) -> list[Country]:
     """
-    Loads country data from a CSV file.
-
-    Args:
-        file_path (str): Path to the CSV file containing country data.
-
-    Returns:
-        list[Country]: A list of Country objects.
-
-    Raises:
-        FileNotFoundError: If the file is not found.
-        Exception: For other unexpected errors during file processing.
+    Loads country data from CSV file.
     """
     countries = []
     try:
