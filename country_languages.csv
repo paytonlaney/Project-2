@@ -1,0 +1,211 @@
+id,Country,Main Languages,Minority Languages
+1,Abkhazia,Abkhaz and Russian,Georgian
+2,Afghanistan,Persian and Pashto,None
+3,Albania,Albanian,"Greek, Macedonian, and Aromanian"
+4,Algeria,Arabic and Berber,None
+5,Andorra,Catalan,"Spanish, French, and Portugese"
+6,Angola,Portugese,None
+7,Antigua and Barbuda,English,None
+8,Argentina,Spanish,None
+9,Armenia,Armenian,None
+10,Australia,English,None
+11,Austria,German,"Slovene, Czech, and Hungarian"
+12,Azerbaijan,Azerbaijani,None
+13,Bahamas,English,None
+14,Bahrain,Arabic,English
+15,Bangladesh,Bengali,"Chakma, Marma, and Rakhine"
+16,Barbados,English,None
+17,Belarus,Belarusian and Russian,None
+18,Belgium,"Dutch, French, and German",None
+19,Belize,English,None
+20,Benin,French,None
+21,Bhutan,Dzongkha,None
+22,Bolivia,"Castilian, Aymara, and Guarayu",None
+23,Bosnia and Herzegovina,"Bosnian, Croatian, and Serbian",None
+24,Botswana,English,None
+25,Brazil,Portugese,None
+26,Brunei,Malay,None
+27,Bulgaria,Bulgarian,None
+28,Burkina Faso,French,None
+29,Burundi,"French, Kirundi, and English",None
+30,Cambodia,Khmer,None
+31,Cameroon,English and French,None
+32,Canada,English and French,"Chipewyan, Cree, and Gwich'in"
+33,Cape Verde,Portugese,None
+34,Central African Republic,French and Sango,None
+35,Chad,Arabic and French,None
+36,Chile,Chilean Spanish,None
+37,China,Standard Chinese,"Mongolian, Uyghur, and Tibetan"
+38,Christmas Island,"English, Manderin Chinese, and Malay",None
+39,Cocos Islands,English and Cocos Malay,None
+40,Colombia,Spanish,None
+41,Comoros,"Arabic, Comorian, and French",None
+42,Democratic Republic of the Congo,French,Lingala and Kikongo
+43,Republic of the Congo,French,Lingala and Munukutuba
+44,Cook Islands,English and Cook Islands Maori,None
+45,Costa Rica,Spanish,Limonese Creole
+46,Croatia,Croatian,None
+47,Cuba,Spanish,None
+48,Cyprus,Greek and Turkish,None
+49,Czech Republic,Czech and Slovak,"Belarusian, Bulgarian, and Croatian"
+50,Denmark,Danish,German
+51,Djibouti,Arabic and French,None
+52,Dominica,English,None
+53,Dominican Republic,Spanish,None
+54,East Timor,Portuguese and Tetum,None
+55,Ecuador,Spanish and Quechua,Kichwa and Shuar
+56,Egypt,Arabic,Coptic
+57,El Salvador,Spanish,None
+58,Equatorial Guinea,"French, Portuguese, and Spanish",None
+59,Eritrea,Tigrinya,None
+60,Estonia,Estonian,None
+61,Eswatini,English and Swazi,None
+62,Ethiopia,"Afar, Somali, and Amharic",None
+63,Fiji,"English, Fijian, and Fijian Hindi",None
+64,Finland,Finnish and Swedish,Sami
+65,France,French,None
+66,Gabon,French,None
+67,Gambia,English,None
+68,Georgia,Georgian,None
+69,Germany,German,"Danish, Romani, and Sorbian"
+70,Ghana,English,None
+71,Greece,Greek,None
+72,Grenada,English,None
+73,Guatemala,Spanish,None
+74,Guinea,French,None
+75,Guinea-Bissau,Portuguese,None
+76,Guyana,English,None
+77,Haiti,French and Haitian Creole,None
+78,Honduras,Spanish,None
+79,Hungary,Hungarian,"Croatian, German, and Romanian"
+80,Iceland,Icelandic,None
+81,India,Hindi and English,"Nepali, Punjabi, and Tamil"
+82,Indonesia,Indonesian,None
+83,Iran,Persian,"Azerbaijani, Kurdish, and Luri"
+84,Iraq,Arabic and Kurdish,None
+85,Ireland,Irish and English,None
+86,Isreal,Hebrew,English
+87,Italy,Italian,Ladin and Slovene
+88,Ivory Coast,French,None
+89,Jamaica,English,None
+90,Japan,Japanese,None
+91,Jordan,Arabic,"Circassian, Chechen, and Armenian"
+92,Kazakhstan,Kazakh and Russian,None
+93,Kenya,English and Swahili,None
+94,Kiribati,English and Gilbertese,None
+95,North Korea,Korean,None
+96,South Korea,Korean,None
+97,Kosovo,Albanian and Serbian,None
+98,Kuwait,Arabic,None
+99,Kyrgyzstan,Kyrgyz and Russian,None
+100,Laos,Lao,None
+101,Latvia,Latvian,None
+102,Lebanon,Arabic,Armenian
+103,Lesotho,Sotho and English,None
+104,Liberia,English,None
+105,Libya,Arabic,None
+106,Liechtenstein,German,None
+107,Lithuania,Lithuanian,None
+108,Luxembourg,"French, German, and Luxembourgish",None
+109,Madagascar,French and Malagasy,None
+110,Malawi,English and Chichewa,None
+111,Malaysia,Malay,None
+112,Maldives,Dhivehi,None
+113,Mali,"Bambara, Fula, and Senufo",French
+114,Malta,Matlese and English,None
+115,Sovereign Military Order of Malta,Italian,None
+116,Marshall Islands,English and Marsallese,None
+117,Mauritania,Arabic,None
+118,Mauritius,Mauritian Creole,English
+119,Mexico,Spanish,None
+120,Federated States of Micronesia,English,None
+121,Moldova,Romanian,None
+122,Monaco,French,None
+123,Mongolia,Mongolian,None
+124,Montenegro,Montenegrin,None
+125,Morocco,Arabic and Berber,None
+126,Mozambique,Portugese,None
+127,Myanmar,Burmese,None
+128,Namibia,English,None
+129,Nauru,English and Nauruan,None
+130,Nepal,Nepali,None
+131,Netherlands,Dutch,"Dutch Low Saxon, Limburgish, and Yiddish"
+132,New Zealand,English and Maori Language,None
+133,Nicaragua,Spanish,None
+134,Niger,French,None
+135,Nigeria,English,None
+136,Niue,English and Niuean,None
+137,Norfolk Island,English and Norfuk,None
+138,North Macedonia,Macedonian and Albanian,None
+139,Northern Cyprus,Turkish,None
+140,Norway,Norwegian and Sami Languages,Kven and Scandoromani
+141,Oman,Arabic,Shehri
+142,Pakistan,Urdu and English,None
+143,Palau,English and Palauan,None
+144,Palestine,Arabic,None
+145,Panama,Spanish,None
+146,Papua New Guinea,"English, Hiri Motu, and Tok Pisin",None
+147,Paraguay,Spanish and Guaraní,None
+148,Peru,"Peruvian Spanish, Quechua, and Aymara",None
+149,Philippines,Filipino and English,Arabic and Spanish
+150,Poland,Polish,"German, Lituanian, and Belarusian"
+151,Portugal,Portugese,None
+152,Quatar,Arabic,None
+153,Romania,Romanian,"Armenian, German, and Hungarian"
+154,Russia,Russian,None
+155,Rwanda,"English, French, and Kinyarwanda",None
+156,Sahrawi Arab Democratic Republic,Arabic,None
+157,Saint Kitts and Nevis,English,None
+158,Saint Lucia,English,None
+159,Saint Vincent and the Grenadines,English,None
+160,Samoa,English and Samoan,None
+161,San Marino,Italian,None
+162,São Tomé and Príncipe,,None
+163,Saudi Arabia,Arabic,"Faifi, Razihi, and Mehri"
+164,Senegal,French,None
+165,Serbia,Serbian,None
+166,Seychelles,"English, French, and Seychellois Creole",None
+167,Sierra Leone,English,None
+168,Singapore,"English, Maylay, and Mandarin Chinese",None
+169,Slovakia,Slovak,"Bulgarian, Czech, and German"
+170,Slovenia,Slovene,"Hungarian, Italian, and Croatian"
+171,Soloman Islands,English,None
+172,Somalia,Somali and Arabic,None
+173,Somaliland,"Arabic, English, and Somali",None
+174,South Africa,"Afrikaans, English. and Southern Ndebele",None
+175,South Ossetia,Ossetian and Russian,Georgian
+176,South Sudan,English,None
+177,Spain,Spanish,"French, Portugese, and Aragonese"
+178,Sri Lanka,Sinhala and Tamil,None
+179,Sudan,Arabic and English,None
+180,Suriname,Dutch,None
+181,Sweden,Swedish,"Finnish, Yiddish, and Romani"
+182,Switzerland,"French, German, and Italian",None
+183,Syria,Arabic,Assyrian and Western Neo-Arameic Armenian
+184,Taiwan,Mandarin Chinese,None
+185,Takikistan,Tajik,None
+186,Tanzania,Swahili and English,None
+187,Thiland,Thai,None
+188,Togo,French,None
+189,Tokelau,English and Tokelauan,None
+190,Tonga,English and Tongan,None
+191,Transnistra,"Moldovan, Russian, and Ukranian",None
+192,Trinidad and Tobago,English,None
+193,Tunisia,Arabic,None
+194,Turkey,Turkish,Kurdish
+195,Turkministan,Turkmen,None
+196,Tuvalu,Tuvaluan and English,None
+197,Uganda,English and Swahili,None
+198,Ukraine,Ukranian,None
+199,United Arab Emirates,Arabic,None
+200,United Kingdom,English,None
+201,United States,English,None
+202,Uruguay,Spanish,None
+203,Uzbekistan,Uzbek,Karakalpak
+204,Vanuatu,"English, French, and Bislama",None
+205,Vatican City,Italian and Latin,None
+206,Venezuela,Spanish,None
+207,Vietnam,Vietnamese,"Cantonese, Cham, and Hmong"
+208,Yemen,Arabic,Mehri and Soqotri
+209,Zambia,English,None
+210,Zimbabwe,"Chewa, Chibarwe, and English",None
