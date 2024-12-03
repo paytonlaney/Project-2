@@ -16,7 +16,7 @@ class Country:
 
     def get_languages(self) -> str:
         """
-        Returns a string of the main and minority languages of the country.
+        Returns a popup of the main and minority languages of the country.
         """
         languages = f"Main Languages: {self.__main_languages}\n"
         if self.__minority_languages and self.__minority_languages.lower() != "none":

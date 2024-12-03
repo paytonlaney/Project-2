@@ -10,13 +10,13 @@ class LanguageInfoApp:
 
     def __init__(self, root: tk.Tk, countries: list[Country]):
         """
-        Initializes the LanguageInfoApp gui.
+        Initializes the Language App gui.
         """
         self.root = root
         self.root.title("Country Language Information")
         self.countries = countries
 
-        # GUI Components
+        # Gui Components
         self.listbox = tk.Listbox(root, width=50, height=20)
         self.listbox.grid(row=0, column=0, rowspan=6, columnspan=3)
 
@@ -34,7 +34,7 @@ class LanguageInfoApp:
 
     def refresh_country_list(self):
         """
-        Refreshes the country list displayed in the list.
+        Refreshes the country list displayed.
         """
         self.listbox.delete(0, tk.END)
         for country in self.countries:
