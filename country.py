@@ -7,8 +7,7 @@ class Country:
         self.__main_languages = main_languages
         self.__minority_languages = minority_languages
 
-    @property
-    def name(self) -> str:
+    def get_name(self) -> str:
         """
         Returns the name of the country.
         """
@@ -27,3 +26,4 @@ class Country:
 
     def __str__(self) -> str:
         return self.__name
+

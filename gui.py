@@ -7,7 +7,6 @@ class LanguageInfoApp:
     """
     Sets up gui.
     """
-
     def __init__(self, root: tk.Tk, countries: list[Country]):
         """
         Initializes the Language App gui.
@@ -38,7 +37,7 @@ class LanguageInfoApp:
         """
         self.listbox.delete(0, tk.END)
         for country in self.countries:
-            self.listbox.insert(tk.END, country.name)
+            self.listbox.insert(tk.END, country.get_name())
 
     def view_languages(self):
         """
@@ -51,7 +50,7 @@ class LanguageInfoApp:
 
             selected_country = self.countries[selected_index[0]]
             languages = selected_country.get_languages()
-            messagebox.showinfo("Languages", f"{selected_country.name} languages:\n{languages}")
+            messagebox.showinfo("Languages", f"{selected_country.get_name()} languages:\n{languages}")
         except ValueError as e:
             messagebox.showwarning("Selection Error", str(e))
 
@@ -65,16 +64,14 @@ class LanguageInfoApp:
                 raise ValueError("Country name cannot be empty.")
 
             found_country = next(
-                (country for country in self.countries if country_name.lower() in country.name.lower()), None
-            )
+                (country for country in self.countries if country_name.lower() in country.get_name().lower()), None)
             if found_country:
                 languages = found_country.get_languages()
-                messagebox.showinfo("Country Found", f"{found_country.name} languages:\n{languages}")
+                messagebox.showinfo("Country Found", f"{found_country.get_name()} languages:\n{languages}")
             else:
                 raise LookupError("Country not found")
         except (ValueError, LookupError) as e:
             messagebox.showinfo("Search Error", str(e))
-
 
 def run_app(countries: list[Country]):
     """
