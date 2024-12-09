@@ -1,6 +1,6 @@
 class Country:
     """
-    Represents a country and its language data.
+    Represents a country and its language data
     """
     def __init__(self, name: str, main_languages: str, minority_languages: str):
         self.__name = name
@@ -9,13 +9,13 @@ class Country:
 
     def get_name(self) -> str:
         """
-        Returns the name of the country.
+        Returns the name of the country
         """
         return self.__name
 
     def get_languages(self) -> str:
         """
-        Returns a popup of the main and minority languages of the country.
+        Returns a popup messagebox of the main and minority languages of the country
         """
         languages = f"Main Languages: {self.__main_languages}\n"
         if self.__minority_languages and self.__minority_languages.lower() != "none":

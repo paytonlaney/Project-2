@@ -5,17 +5,17 @@ from country import Country
 
 class LanguageInfoApp:
     """
-    Sets up gui.
+    Sets up gui
     """
     def __init__(self, root: tk.Tk, countries: list[Country]):
         """
-        Initializes the Language App gui.
+        Initializes the Language App gui
         """
         self.root = root
         self.root.title("Country Language Information")
         self.countries = countries
 
-        # Gui Components
+        #Gui Components
         self.listbox = tk.Listbox(root, width=50, height=20)
         self.listbox.grid(row=0, column=0, rowspan=6, columnspan=3)
 
@@ -28,12 +28,12 @@ class LanguageInfoApp:
         self.search_button = tk.Button(root, text="Search by Country", command=self.search_country)
         self.search_button.grid(row=6, column=2)
 
-        # Initial set of the country list
+        #Initial set of the countrys
         self.refresh_country_list()
 
     def refresh_country_list(self):
         """
-        Refreshes the country list displayed.
+        Refreshes the country list
         """
         self.listbox.delete(0, tk.END)
         for country in self.countries:
@@ -41,7 +41,7 @@ class LanguageInfoApp:
 
     def view_languages(self):
         """
-        Displays the languages of the selected country.
+        Displays the languages of the selected country
         """
         try:
             selected_index = self.listbox.curselection()
@@ -56,7 +56,7 @@ class LanguageInfoApp:
 
     def search_country(self):
         """
-        Searches for a country by name and displays its languages.
+        Searches for a country by name and displays its languages
         """
         try:
             country_name = simpledialog.askstring("Search", "Enter country name:")
@@ -75,7 +75,7 @@ class LanguageInfoApp:
 
 def run_app(countries: list[Country]):
     """
-    Runs the gui application.
+    Runs the gui application
     """
     root = tk.Tk()
     app = LanguageInfoApp(root, countries)

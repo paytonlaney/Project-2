@@ -4,7 +4,7 @@ from country import Country
 
 def load_country_data(file_path: str) -> list[Country]:
     """
-    Loads data from CSV file.
+    Loads data from csv file
     """
     countries = []
     try:
